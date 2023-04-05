@@ -1,7 +1,7 @@
 <?php
 
 try{
-	$VeritabaniBaglantisi	=	new PDO("mysql:host=localhost;dbname=extraegitim;charset=UTF8", "root", "");
+	$VeritabaniBaglantisi	=	new PDO("mysql:host=localhost;dbname=mydb;charset=UTF8", "root", "");
 }catch(PDOException $Hata){
 	echo $Hata->getMessage();
 	die();
